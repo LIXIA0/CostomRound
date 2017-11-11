@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lixiao.hitu.Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.example.lixiao.hitu.MyView
+            android:id="@+id/id_qiqiu"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/guide1">
+
+        </com.example.lixiao.hitu.MyView>
+
+        <com.example.lixiao.hitu.MyView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/guide2" >
+        </com.example.lixiao.hitu.MyView>
+
+        <com.example.lixiao.hitu.MyView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/guide3" >
+        </com.example.lixiao.hitu.MyView>
+
+        <com.example.lixiao.hitu.MyView
+            android:id="@+id/id_meinv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/title1"
+            app:borderRadius="20dp"
+            app:type="round" >
+        </com.example.lixiao.hitu.MyView>
+
+        <com.example.lixiao.hitu.MyView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/title2"
+            app:borderRadius="40dp"
+            app:type="round" >
+        </com.example.lixiao.hitu.MyView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.example.lixiao.hitu.MyView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/title3"
+                app:borderRadius="60dp"
+                app:type="round" >
+            </com.example.lixiao.hitu.MyView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="会员专区"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>
